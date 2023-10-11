@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacqueline Bento - Instagram posts</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+
+        .insta-grid{
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-template-rows: 100px 300px 300px 100px 100px;
+        }
+        
+        .title{
+            font-family: 'Prata', serif;
+            font-weight: bolder;
+            font-size: 40px;
+            color: #cdcfc0;
+            grid-column: 3/5;
+            grid-row: 1/2;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            text-align: center;
+        }  
+        
+        .insta1{
+            width: 300px;
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+        
+        .insta2{
+            width: 300px;
+            grid-column: 4/5;
+            grid-row: 2/3;
+        }
+        
+        .insta3{
+            width: 300px;
+            grid-column: 6/7;
+            grid-row: 2/3;
+        }
+        
+        .insta4{
+            width: 300px;
+            grid-column: 2/3;
+            grid-row: 3/4;
+            margin-top: 40px;
+        }
+        
+        .insta5{
+            width: 300px;
+            grid-column: 4/5;
+            grid-row: 3/4;
+            margin-top: 40px;
+        }
+        
+        .insta6{
+            width: 300px;
+            grid-column: 6/7;
+            grid-row: 3/4;
+            margin-top: 40px;
+        }
+        
+        .social-2{
+          display: inline;
+          grid-row: 4/5;
+          grid-column: 3/5;
+          margin: 60px auto;
+        }
+        
+        .icon{
+          width: 30px;
+          margin-left: 20px;
+        }
+        
+        .footer-2{
+          grid-row: 5/6;
+          grid-column: 3/5;
+        }
+        
+        .footer-2 h3{
+          color: #cdcfc0;
+          font-family: 'Josefin Sans', sans-serif;
+          display: grid;
+          text-align: center;
+        }
+        
+        @media screen and (max-width: 900px) {
+        
+        .insta-grid{
+            display: inline-block;
+        }
+
+        .insta6{
+            margin-right: 150px;
+            margin-left: 20%;
+            margin-bottom: 20px;
+        }
+
+        .insta1, .insta2, .insta3, .insta4, .insta5{
+            margin-left: 20%;
+        }
+
+        .social-2{
+            margin-left: 30%;
+        }
+
+        .footer-2{
+            margin-top: 20px;
+        }
+      }
+        
+        </style>
+</head>
+<body>
+    <main>
+    <a class='home-button' href="index.html">HOME</a>
+    <h1 class="title">INSTAGRAM POSTS</h1>
+    <div class="insta-grid">
+    <img class="insta1" src="insta-images/1.png" alt="media 1">
+    <img class="insta2" src="insta-images/2.png" alt="media 2">
+    <img class="insta3" src="insta-images/3.png" alt="media 3">
+    <img class="insta4" src="insta-images/4.png" alt="media 4">
+    <img class="insta5" src="insta-images/5.png" alt="media 5">
+    <img class="insta6" src="insta-images/6.png" alt="media 6">
+
+    <div class="social-2">
+        <a class="social-link" href="https://www.facebook.com/"><img class="icon" src="images/face_logo.png" alt="facebook"></a>
+        <a class="social-link" href="www.instagram.com"><img class="icon" src="images/insta_logo.png" alt="instagram"></a>
+        <a class="social-link" href="https://www.linkedin.com/in/jacquelinebento/?locale=en_US"><img class="icon" src="images/link_logo.png" alt="linkedin"></a>
+      </div>
+       
+    <footer class="footer-2">
+        <h3>Jacqueline Bento's portfolio &copy; 2022 - Jacqueline Bento</h3>
+        <a class='site-plan' href="site-plan.html">Site Plan</a>
+    </footer>
+
+    </div>
+    </main>
+
+
+
+</body>
+
+
+
+</html>
